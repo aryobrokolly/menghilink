@@ -27,6 +27,7 @@ download_files()
    	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/menghilink/m -O $DIR/m && chmod +x $DIR/m
  	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/menghilink/modem -O $DIR/modem && chmod +x $DIR/modem
     	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/menghilink/balong-nvtool -O $DIR/balong-nvtool && chmod +x $DIR/balong-nvtool
+     	rm -rf setup.sh
     	finish
 }
 
