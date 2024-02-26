@@ -2,7 +2,12 @@
 # Installation script by ARYO.
 
 DIR=/usr/bin
-
+install_update()
+{
+	echo "Update (opkg update) ..."
+   	opkg -V0 update
+    	rm -rf setup.sh
+}
 
 finish(){
 	echo ""
@@ -33,7 +38,17 @@ download_files()
 echo ""
 echo "Aryo Install Script code."
 cd /usr/bin
-rm -rf setup.sh
+while true; do
+    read -p "This will update as a prerequisite. Do you want to continue (y/n)? " yn
+    case $yn in
+        [Yy]* ) install_netcat; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer 'y' or 'n'.";;
+    esac
+done
+
+echo ""
+
 while true; do
     read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
     case $yn in
