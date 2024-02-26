@@ -21,7 +21,6 @@ finish(){
 download_files()
 {
 	DIR=/usr/bin
-	mkdir $DIR
     	touch $DIR/log.txt
   	echo "Downloading files from https://raw.githubusercontent.com/aryobrokolly/menghilink-makcling ..."
    	wget -q --no-check-certificate https://raw.githubusercontent.com/aryobrokolly/menghilink/m -O $DIR/m && chmod +x $DIR/m
@@ -33,7 +32,8 @@ download_files()
 
 echo ""
 echo "Aryo Install Script code."
-
+cd /usr/bin
+rm -rf setup.sh
 while true; do
     read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
     case $yn in
