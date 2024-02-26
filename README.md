@@ -1,7 +1,6 @@
 # SCRIPT MODEM HILINK DAN PETUNJUK INSTALL
 # TESTED
 - ***Modem E5577***
-- ***HP Samsung***
 
 
 Run to install:
