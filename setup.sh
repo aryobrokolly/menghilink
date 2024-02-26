@@ -41,7 +41,7 @@ cd /usr/bin
 while true; do
     read -p "This will update as a prerequisite. Do you want to continue (y/n)? " yn
     case $yn in
-        [Yy]* ) install_netcat; break;;
+        [Yy]* ) install_update; break;;
         [Nn]* ) exit;;
         * ) echo "Please answer 'y' or 'n'.";;
     esac
