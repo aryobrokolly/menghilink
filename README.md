@@ -14,6 +14,7 @@ bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/menghilink
 
 # Untuk Auto restart ketika tidak ada koneksi
 1. CARA 1
+
 Hapus terlebih dahulu jika stbmu 
 - B860H
   di folder **/usr/bin/bled**
@@ -28,5 +29,5 @@ Hapus terlebih dahulu jika stbmu
   okscrip
   ```
 
-  2. CARA 2
+2. CARA 2
   Gunakan conn monitor atau tonton tutoorialnya di youtube https://youtube.com/@aryobrokolly
