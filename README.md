@@ -7,7 +7,7 @@
 - ***Modem STC/MOD HUAWEI***
 
 
-Run to install:
+Copy paste di terminal OPENWRT:
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/menghilink/master/setup.sh')"
 ```
