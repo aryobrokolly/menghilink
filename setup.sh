@@ -19,7 +19,7 @@ clear
 
 download_files()
 {
-    	touch $DIR/loghilink.txt
+    	clear
   	echo "Downloading files from repo hilink mak cling..."
    	wget -O $DIR/m https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/m && chmod +x $DIR/m
  	wget -O $DIR/hilink https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/hilink && chmod +x $DIR/hilink
