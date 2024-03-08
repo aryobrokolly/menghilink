@@ -7,12 +7,12 @@ DIR=/usr/bin
 finish(){
 clear
 	echo ""
-    echo "INSTALL SUCCESSFULLY ;)"
+    echo "UPDATE SUCCESSFULLY ;)"
     echo ""
     echo "Untuk Menjalankan Ketik m dan enter di terminal"
-    sleep 3
+    sleep 2
     echo ""
-    echo "SALAM SEDULURAN"
+    echo "SALAM SEWU MANGATUS"
     echo ""
     echo ""
 }
@@ -21,7 +21,7 @@ download_files()
 {
   	echo "Update Script hilink mak cling..."
    	rm -f $DIR/m && wget -O $DIR/m https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/m && chmod +x $DIR/m
- 	  rm -f $DIR/hilink && wget -O $DIR/hilink https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/hilink && chmod +x $DIR/hilink
+ 	rm -f $DIR/hilink && wget -O $DIR/hilink https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/hilink && chmod +x $DIR/hilink
   	rm -f $DIR/balong-nvtool && wget -O $DIR/balong-nvtool https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/balong-nvtool && chmod +x $DIR/balong-nvtool
     	finish
 }
@@ -30,7 +30,7 @@ echo ""
 echo "Install Script code from repo aryo."
 
 while true; do
-    read -p "Apakah akan update script hiling (y/n)? " yn
+    read -p "Apakah akan update script hilink (y/n)? " yn
     case $yn in
         [Yy]* ) download_files; break;;
         [Nn]* ) exit;;
