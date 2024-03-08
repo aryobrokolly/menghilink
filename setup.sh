@@ -2,8 +2,6 @@
 # Installation script by ARYO.
 
 DIR=/usr/bin
-DIR2=/etc/init.d
-
 
 
 finish(){
