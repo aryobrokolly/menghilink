@@ -9,6 +9,6 @@
 
 Run to install:
 ```
-bash -c "$(curl -sko - 'https://raw.githubusercontent.com/aryobrokolly/menghilink/master/setup.sh')"
+bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/menghilink/master/setup.sh')"
 ```
 
