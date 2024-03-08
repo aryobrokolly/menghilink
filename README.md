@@ -28,13 +28,13 @@ Hapus terlebih dahulu jika stbmu
   ```
    wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/hgled && chmod +x /usr/bin/hgled
   ```
-
+<br><br>
 2. CARA 2<br>
   Gunakan conn monitor atau tonton tutoorialnya di youtube https://youtube.com/@aryobrokolly
 <br>
 # BUTUH CONFIG BACKUP<br>
   kLIK DISINI : https://www.lynk.id/aryobrokolly
-
+<br>
 # DONASI
 - ***Silahkan Donasi Seiklasnya untuk akses script ini***
 <img src="https://github.com/aryobrokolly/XRAY-MPORT/blob/26495331210caf0380909a4478a7b3721e04124c/img/qris.jpg" alt="DONASI" width="350" height="470">
