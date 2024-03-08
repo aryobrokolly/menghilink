@@ -20,13 +20,13 @@ Hapus terlebih dahulu jika stbmu
   di folder **/usr/bin/bled**
   lalu copy paster di terminal script berikut
   ```
-  okscrip
+  wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/bled && chmod +x /usr/bin/bled
   ```
 - HG680P
   di folder **/usr/bin/hgled**
   lalu copy paster di terminal script berikut
   ```
-  okscrip
+   wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/hgled && chmod +x /usr/bin/hgled
   ```
 
 2. CARA 2
