@@ -18,20 +18,19 @@ bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/menghilink
 Hapus terlebih dahulu jika stbmu 
 - B860H<br>
   di folder **/usr/bin/bled** <br>
-  lalu copy paster di terminal script berikut
+  lalu copy paste di terminal script berikut<br>
   ```
   wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/bled && chmod +x /usr/bin/bled
   ```
-- HG680P
-  di folder **/usr/bin/hgled**
-  lalu copy paster di terminal script berikut
+- HG680P<br>
+  di folder **/usr/bin/hgled**<br>
+  lalu copy paste di terminal script berikut<br>
   ```
    wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/hgled && chmod +x /usr/bin/hgled
   ```
 
-2. CARA 2
-   
+2. CARA 2<br>
   Gunakan conn monitor atau tonton tutoorialnya di youtube https://youtube.com/@aryobrokolly
-
-# BUTUH CONFIG BACKUP
+<br>
+# BUTUH CONFIG BACKUP<br>
   kLIK DISINI : https://www.lynk.id/aryobrokolly
