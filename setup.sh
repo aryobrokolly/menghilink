@@ -2,12 +2,9 @@
 # Installation script by ARYO.
 
 DIR=/usr/bin
-install_update()
-{
-	echo "Update (opkg update) ..."
-   	opkg -V0 update
-    	rm -rf setup.sh
-}
+DIR2=/etc/init.d
+
+
 
 finish(){
 	echo ""
@@ -20,43 +17,30 @@ finish(){
 #    echo "2. The interface representing the LTE connection is set to 'wwan0'."
 #    echo "   To change the interface, please edit the line INTERFACE='wwan0' in the 'restart-interface.sh'."
     echo ""
-    echo "Selamat menggunakan dengan ketik m"
+    echo "Untuk Menjalankan Ketik m dan enter di terminal"
+    sleep 3
+    echo ""
+    echo "SALAM SEDULURAN"
 }
 
 download_files()
 {
-	DIR=/usr/bin
-    	touch $DIR/log.txt
-  	echo "Downloading files from https://raw.githubusercontent.com/aryobrokolly/menghilink-makcling ..."
-    	wget -O $DIR/m https://raw.githubusercontent.com/aryobrokolly/menghilink/m && chmod +x $DIR/m
-        wget -O $DIR/modem https://raw.githubusercontent.com/aryobrokolly/menghilink/modem && chmod +x $DIR/modem
-	wget -O $DIR/balong-nvtool https://raw.githubusercontent.com/aryobrokolly/menghilink/balong-nvtool && chmod +x $DIR/balong-nvtool
+    	touch $DIR/logtailscale.txt
+  	echo "Downloading files from repo..."
+   	wget -O $DIR/tailscale https://raw.githubusercontent.com/aryobrokolly/tailscale/main/usr/bin/tailscale && chmod +x $DIR/tailscale
+ 	wget -O $DIR/tailscaled https://raw.githubusercontent.com/aryobrokolly/tailscale/main/usr/bin/tailscaled && chmod +x $DIR/tailscaled
+  	wget -O $DIR2/tailscale https://raw.githubusercontent.com/aryobrokolly/tailscale/main/etc/init.d/tailscale && chmod +x $DIR2/tailscale
     	finish
 }
 
 echo ""
-echo "Aryo Install Script code."
-cd /usr/bin
-while true; do
-    read -p "This will update as a prerequisite. Do you want to continue (y/n)? " yn
-    case $yn in
-        [Yy]* ) install_update; break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer 'y' or 'n'.";;
-    esac
-done
-
-echo ""
+echo "Aryo Install Script code from repo."
 
 while true; do
-    read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
+    read -p "This will download the files into $DIR and $DIR2. Do you want to continue (y/n)? " yn
     case $yn in
         [Yy]* ) download_files; break;;
         [Nn]* ) exit;;
         * ) echo "Please answer 'y' or 'n'.";;
     esac
 done
-
-
-
-
