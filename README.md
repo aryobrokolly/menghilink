@@ -12,7 +12,7 @@ Run to install:
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/menghilink/master/setup.sh')"
 ```
 
-# Untuk Auto restart ketika tidak ada koneksi
+# Untuk menjalankan auto ganti ip ketika tidak ada koneksi
 1. CARA 1
 
 Hapus terlebih dahulu jika stbmu 
