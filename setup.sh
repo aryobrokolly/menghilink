@@ -34,7 +34,7 @@ download_files()
 }
 
 echo ""
-echo "Aryo Install Script code from repo."
+echo "Install Script code from repo aryo."
 
 while true; do
     read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
