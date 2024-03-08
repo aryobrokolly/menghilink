@@ -37,6 +37,7 @@ echo -e "$DB **$G [\e[36m•2\e[0m$G] Cek Device Information                  $D
 echo -e "$DB **$G [\e[36m•3\e[0m$G] Lock Cell ID                            $DB**"
 echo -e "$DB **$G [\e[36m•4\e[0m$G] Unlock Cell ID                          $DB**"
 echo -e "$DB **$G [\e[36m•5\e[0m$G] Restart/reboot                          $DB**"
+echo -e "$DB **$G [\e[36m•6\e[0m$G] Update Script                           $DB**"
 echo -e "$DB **************************************************"
 echo -e "$W"
 echo -e   ""
@@ -90,6 +91,20 @@ read -n 1 -s -r -p "Press any key to back on menu"
 echo -e Proses reboot, mohon ditunggu......
 echo -e
 hilink reboot
+sleep 3
+clear
+echo -e
+echo -e Done.....
+echo -e
+read -n 1 -s -r -p "Press any key to back on menu"
+/usr/bin/m
+ ;;
+
+6) clear ;
+echo -e Proses Update Script berjalan, mohon ditunggu......
+sleep 1
+echo -e
+updatehilink
 sleep 3
 clear
 echo -e
