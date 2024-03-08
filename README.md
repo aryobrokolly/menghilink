@@ -16,10 +16,8 @@ bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/menghilink
 1. CARA 1
 
 Hapus terlebih dahulu jika stbmu 
-- B860H
-
-  di folder **/usr/bin/bled**
-  
+- B860H<br>
+  di folder **/usr/bin/bled** <br>
   lalu copy paster di terminal script berikut
   ```
   wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/bled && chmod +x /usr/bin/bled
