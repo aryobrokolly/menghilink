@@ -49,7 +49,7 @@ echo -e Proses ubah ip, mohon ditunggu
 echo -e
 sleep 3
 clear
-modem iphunter
+hilink iphunter
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
 /usr/bin/m
@@ -60,7 +60,7 @@ echo -e Proses cek info modem, mohon ditunggu
 echo -e
 sleep 3
 clear
-modem info
+hilink info
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
 /usr/bin/m
@@ -71,7 +71,7 @@ echo -e Proses lock cell id, mohon ditunggu
 echo -e
 sleep 3
 clear
-modem lock
+hilink lock
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
 /usr/bin/m
@@ -80,7 +80,7 @@ read -n 1 -s -r -p "Press any key to back on menu"
 4) clear ;
 echo -e Proses unlock cell id, mohon ditunggu......
 echo -e
-modem unlock
+hilink unlock
 echo -e
 read -n 1 -s -r -p "Press any key to back on menu"
 /usr/bin/m
@@ -89,7 +89,7 @@ read -n 1 -s -r -p "Press any key to back on menu"
 5) clear ;
 echo -e Proses reboot, mohon ditunggu......
 echo -e
-modem reboot
+hilink reboot
 sleep 3
 clear
 echo -e
