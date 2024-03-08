@@ -25,11 +25,11 @@ finish(){
 
 download_files()
 {
-    	touch $DIR/logtailscale.txt
+    	touch $DIR/loghilink.txt
   	echo "Downloading files from repo..."
-   	wget -O $DIR/tailscale https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/m && chmod +x $DIR/m
- 	wget -O $DIR/tailscaled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/hilink && chmod +x $DIR/hilink
-  	wget -O $DIR2/tailscale https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/balong-nvtool && chmod +x $DIR2/balong-nvtool
+   	wget -O $DIR/m https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/m && chmod +x $DIR/m
+ 	wget -O $DIR/hilink https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/hilink && chmod +x $DIR/hilink
+  	wget -O $DIR/balong-nvtool https://raw.githubusercontent.com/aryobrokolly/menghilink/main/usr/bin/balong-nvtool && chmod +x $DIR/balong-nvtool
     	finish
 }
 
@@ -37,7 +37,7 @@ echo ""
 echo "Aryo Install Script code from repo."
 
 while true; do
-    read -p "This will download the files into $DIR and $DIR2. Do you want to continue (y/n)? " yn
+    read -p "This will download the files into $DIR. Do you want to continue (y/n)? " yn
     case $yn in
         [Yy]* ) download_files; break;;
         [Nn]* ) exit;;
