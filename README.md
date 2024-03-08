@@ -34,3 +34,8 @@ Hapus terlebih dahulu jika stbmu
 <br>
 # BUTUH CONFIG BACKUP<br>
   kLIK DISINI : https://www.lynk.id/aryobrokolly
+
+# DONASI
+- ***Silahkan Donasi Seiklasnya untuk akses script ini***
+<img src="https://github.com/aryobrokolly/XRAY-MPORT/blob/26495331210caf0380909a4478a7b3721e04124c/img/qris.jpg" alt="DONASI" width="250" height="370">
+
