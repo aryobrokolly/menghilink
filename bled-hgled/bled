@@ -13,14 +13,24 @@ fi
 SERVICE_NAME="Internet Indicator"
 
 function loop() {
+  count=0
   while true; do
     bledon -lan dis
     if curl -X "HEAD" --connect-timeout 3 -so /dev/null "http://bing.com"; then
       bledon -lan on
     else
       bledon -lan off
+      count=$((count+1))
+      sleep 5
     fi
-    sleep 1
+    # Jika led merah sebanyak 2 kali, reconnect dan tunggu 10detik sebelum ke perintah 1
+    if [ $count -ge 2 ]
+    then
+      modpesrakitan
+      sleep 10
+      count=0
+    fi
+    sleep 2
   done
 }
 
