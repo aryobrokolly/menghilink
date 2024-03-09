@@ -26,7 +26,7 @@ function loop() {
     # Jika led merah sebanyak 2 kali, reconnect dan tunggu 10detik sebelum ke perintah 1
     if [ $count -ge 2 ]
     then
-      modpesrakitan
+       m iphunter
       sleep 10
       count=0
     fi
