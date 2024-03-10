@@ -1,6 +1,6 @@
 #!/bin/bash
-#IP Hunter by Chewy Mage
-#Github https://github.com/Haris131/e3372
+#IP Hunter by ais sia
+#Upload by Aryo Brokolly
 clear
 human_print(){
 while read B dummy; do
