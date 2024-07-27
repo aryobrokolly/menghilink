@@ -35,5 +35,6 @@ Hapus terlebih dahulu jika stbmu
 <br>
 # DONASI
 - ***Silahkan Donasi Seiklasnya untuk akses script ini***
-<img src="https://github.com/aryobrokolly/XRAY-MPORT/blob/26495331210caf0380909a4478a7b3721e04124c/img/qris.jpg" alt="DONASI" width="350" height="470">
+
+<img src="https://raw.githubusercontent.com/aryobrokolly/modepesawat/main/barcode-aryobrokolly.jpg" alt="DONASI" width="350" height="470">
 
