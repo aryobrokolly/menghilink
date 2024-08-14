@@ -19,8 +19,13 @@ Hapus terlebih dahulu jika stbmu
 - B860H<br>
   copy paste di terminal script berikut<br>
   ```
-  rm -f /usr/bin/bled && wget -O https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/bled && chmod +x /usr/bin/bled && /usr/bin/bled -r 
+  rm -f /usr/bin/bled && wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/bled && chmod +x /usr/bin/bled && /usr/bin/bled -r 
   ```
+  Kembalikan default
+  ```
+  rm -f /usr/bin/bled && wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/bledhgled/main/bled && chmod +x /usr/bin/bled && /usr/bin/bled -r
+  ```
+  
 - HG680P<br>
   copy paste di terminal script berikut<br>
   ```
