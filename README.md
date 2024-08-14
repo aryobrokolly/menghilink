@@ -26,6 +26,11 @@ Hapus terlebih dahulu jika stbmu
   ```
   rm -f /usr/bin/hgled && wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/hgled && chmod +x /usr/bin/hgled && /usr/bin/hgled -r
   ```
+
+  Kembalikan default
+  ```
+  rm -f /usr/bin/hgled && wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/bledhgled/main/hgled && chmod +x /usr/bin/hgled && /usr/bin/hgled -r
+  ```
 <br><br>
 2. CARA 2<br>
   Gunakan conn monitor atau tonton tutoorialnya di youtube https://youtube.com/@aryobrokolly
